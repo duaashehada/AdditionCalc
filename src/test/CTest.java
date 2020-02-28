@@ -1,15 +1,15 @@
 package test;
-import code.Calculater;
+
 
 import org.junit.Assert;
 import org.junit.Test;
 
+import code.Calculater;
 
-
-public class calculaterTest {
+public class CTest {
 
 	@Test
-	void testsum_BothNumbersArePositive_ShouldReturnPositiveNumber() {
+	public void test() {
 		int a = 10 ; 
 		int b = 20 ; 
 		 Calculater calc = new Calculater(); 
