@@ -1,14 +1,12 @@
 package test;
-import code.Calculater; 
-
+import code.Calculater;
 
 import org.junit.Assert;
-import org.junit.jupiter.api.Test;
+import org.junit.Test;
 
 
 
-
-class CalculaterT {
+public class calculaterTest {
 
 	@Test
 	void testsum_BothNumbersArePositive_ShouldReturnPositiveNumber() {
